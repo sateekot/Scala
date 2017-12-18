@@ -1,0 +1,23 @@
+=> Functions are first class citizens in scala.
+=> A first class function is a function that can be
+	1. Assigned to variable,
+	2. Passed as an argument to other functions, and
+	3. Returned as values from other functions.
+=> Are called higher order functions.
+
+Closure:
+	A closure is a function, whose return value depends on the value of one or more variables declared 
+	outside the function.
+
+Partially Applied Function:
+	When you call a function that has parameters and if you don't pass all parameters to it is called
+	Partially Applied Function.
+	Ex: val add = (x:Int, y:Int) => x+y
+		val partiallyAdd = add(1, _:Int)
+		partiallyAdd(3) // gives 4
+		
+Curreid Function:
+	Currying converts a function with multiple parameters createing a chain of function, each expecting a single 
+	parameter
+	actual function ex: val add = (x: Int, y:Int) => x+y
+	curried function ex: def add(x:Int) (y:Int) => x+y

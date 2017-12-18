@@ -1,0 +1,11 @@
+-> All are object oriented languages.
+-> Scala and Ruby are pure oo languages. Everything in these languages is instance of a class.
+-> In java primitives are outside of OO model.
+-> In Scala and Ruby, all operations on entites are via method calls.
+-> 1.hashCode and 1.toString are legal in Scala.
+
+Traits, Interfaces and Mixins
+
+-> Scala has traits.
+-> Java has interfaces.
+-> Ruby has mixins.
