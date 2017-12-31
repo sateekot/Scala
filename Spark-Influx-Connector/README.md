@@ -1,0 +1,1 @@
+Spark-Influx-Connector 1.0 enables users to load data from Influx measurements into Spark Dataframes. Currently it is with hard coded schema, will update it very soon.
