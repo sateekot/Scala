@@ -1,0 +1,16 @@
+=> Mostly Collection classes exists in three packages.
+	1.	scala.collection
+	2.	scala.collection.immuatable
+	3. 	scala.collection.mutable
+	
+=> package scala.collection
+	o Scala.Collection.jpg
+=> package scala.collection.immutable
+	o	Scala.collection.immutable.Seq.jpg
+	o	Scala.collection.immutable.Set.jpg
+	o	Scala.collection.immutable.Map.jpg
+
+=> By default, Scala always picks immutable collections. If you just write Set with out any prefix, you will get
+	immutable Set.
+=> For mutable collections, you need to mention the package name explicitly like 
+	val col = collection.mutable.Set(1,2,3)
