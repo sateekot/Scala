@@ -11,4 +11,5 @@ object Main extends App{
   
   val listWords = "moose" :: "cow" :: "A" :: "cat" :: Nil
   println("Max String is = "+obj.reduceLeft(listWords))
+  
 }
