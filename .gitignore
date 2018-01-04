@@ -1,0 +1,8 @@
+Spark-Influx-Connector/.cache-main
+.DS_Store
+Spark-Influx-Connector/.settings/
+Spark-Influx-Connector/src/.DS_Store
+Spark-Influx-Connector/target/
+*/.DS_Store
+*/*/*/*/*/.DS_Store
+Scala-Learning/.cache-main
