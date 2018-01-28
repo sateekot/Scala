@@ -13,5 +13,14 @@ object Main extends App{
   println("Max String is = "+obj.reduceLeft(listWords))
   
   val stream = 1 #:: 2 #:: 3 #:: Stream.Empty
+  val numberStream = 
   println(stream.length)
+  
+  //return more than
+  
+  val streamObj = new Streams
+  println(streamObj.sumSq(List(1,2,3,4,5)))
+  
+  
+  println(streamObj.sumSqPm(List(1,2,3,4,5)))
 }
